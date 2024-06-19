@@ -77,7 +77,6 @@ volumes:
   dbdata:
   wordpress:
 
-
-networks:
-  internal:
-    driver: bridge
+    # networks:
+    #   internal:
+    #     driver: bridge
