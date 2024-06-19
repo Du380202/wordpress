@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git credentialsId: 'my-git', url: 'https://github.com/Du380202/wordpress.git', branch: 'main'
+                git credentialsId: 'd162f298-f188-4150-9987-e5b92f62b5d4', url: 'https://github.com/Du380202/wordpress.git', branch: 'main'
             }
         }
 
