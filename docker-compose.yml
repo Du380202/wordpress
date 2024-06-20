@@ -69,15 +69,14 @@ services:
       WORDPRESS_DB_PASSWORD: '${DATABASE_PASSWORD}'
     volumes:
       - wordpress:/var/www/html
-      # - ./src:/var/www/html/wp-content:rw
-
     networks:
       - internal
+
 volumes:
   dbdata:
   wordpress:
 
 
-networks:
-  internal:
-    driver: bridge
+# networks:
+#   internal:
+#     driver: bridge
